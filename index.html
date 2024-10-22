@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lifestyle Hub</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Lifestyle Vibes</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-primary" href="#">Subscribe</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="lifestyleCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Images/Wellness.jpg" class="d-block w-100" alt="Wellness" />
+        </div>
+        <div class="carousel-item">
+          <img src="Images/Fashion.jpg" class="d-block w-100" alt="Fashion" />
+        </div>
+        <div class="carousel-item">
+          <img src="Images/Fitness.jpg" class="d-block w-100" alt="Fitness" />
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container my-5">
+      <div class="row text-center">
+        <h2>Explore Lifestyle Trends</h2>
+        <p>Stay updated with the latest in wellness and fashion.</p>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="Images/Wellness.jpg" class="card-img-top" alt="Wellness" />
+            <div class="card-body">
+              <h5 class="card-title">Wellness</h5>
+              <p class="card-text">Discover the best practices for well-being.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="Images/Fashion.jpg" class="card-img-top" alt="Fashion" />
+            <div class="card-body">
+              <h5 class="card-title">Fashion</h5>
+              <p class="card-text">Stay ahead with sustainable fashion trends.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="Images/Fitness.jpg" class="card-img-top" alt="Fitness" />
+            <div class="card-body">
+              <h5 class="card-title">Fitness</h5>
+              <p class="card-text">Explore workouts that fit your lifestyle.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Subscription Form -->
+    <div class="container text-center my-5">
+      <h3>Join Our Community</h3>
+      <form class="row g-3 justify-content-center">
+        <div class="col-md-4">
+          <input type="text" class="form-control" placeholder="Your Name" required />
+        </div>
+        <div class="col-md-4">
+          <input type="email" class="form-control" placeholder="Your Email" required />
+        </div>
+        <div class="col-auto">
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center bg-dark text-white py-3">
+      <p>&copy; 2024 Lifestyle Vibes | <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a></p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="scripts.js"></script>
+  </body>
+</html>
