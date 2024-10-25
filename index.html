@@ -29,16 +29,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" href="#">Home</a>
+              <a class="nav-link active" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="btn btn-primary" href="#">Subscribe</a>
+              <a class="btn btn-primary" href="subscribe.html">Subscribe</a>
             </li>
           </ul>
         </div>
@@ -58,11 +58,13 @@
           <img src="Images/Fitness.jpg" class="d-block w-100" alt="Fitness" />
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-slide="prev">
+      <button class="carousel-control-prev" type="button" data-bs-target="#lifestyleCarousel" data-bs-slide="prev">
         <span class="carousel-control-prev-icon"></span>
+        <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-slide="next">
+      <button class="carousel-control-next" type="button" data-bs-target="#lifestyleCarousel" data-bs-slide="next">
         <span class="carousel-control-next-icon"></span>
+        <span class="visually-hidden">Next</span>
       </button>
     </div>
 
@@ -103,6 +105,86 @@
       </div>
     </div>
 
+    <!-- Featured Articles -->
+    <div class="container my-5">
+      <h3 class="text-center">Featured Articles</h3>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="Images/Article1.jpg" class="card-img-top" alt="Article 1" />
+            <div class="card-body">
+              <h5 class="card-title">Mindfulness Practices</h5>
+              <p class="card-text">Learn how mindfulness can enhance your well-being.</p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="Images/Article2.jpg" class="card-img-top" alt="Article 2" />
+            <div class="card-body">
+              <h5 class="card-title">Sustainable Fashion</h5>
+              <p class="card-text">Discover eco-friendly fashion brands to support.</p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="Images/Article3.jpg" class="card-img-top" alt="Article 3" />
+            <div class="card-body">
+              <h5 class="card-title">Fitness Routines</h5>
+              <p class="card-text">Explore effective fitness routines for every level.</p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Testimonials -->
+    <div class="container my-5">
+      <h3 class="text-center">What Our Community Says</h3>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card text-center">
+            <div class="card-body">
+              <p class="card-text">"This community has transformed my lifestyle!"</p>
+              <footer class="blockquote-footer">Alice S.</footer>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center">
+            <div class="card-body">
+              <p class="card-text">"I love the tips and resources shared here!"</p>
+              <footer class="blockquote-footer">John D.</footer>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center">
+            <div class="card-body">
+              <p class="card-text">"A great place to learn and connect!"</p>
+              <footer class="blockquote-footer">Sarah K.</footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Resources -->
+    <div class="container my-5">
+      <h3 class="text-center">Resources</h3>
+      <ul class="list-group">
+        <li class="list-group-item"><a href="#">Guide to Healthy Eating</a></li>
+        <li class="list-group-item"><a href="#">Best Yoga Practices</a></li>
+        <li class="list-group-item"><a href="#">Top 10 Fashion Influencers</a></li>
+        <li class="list-group-item"><a href="#">Effective Workout Plans</a></li>
+        <li class="list-group-item"><a href="#">Mental Health Resources</a></li>
+      </ul>
+    </div>
+
     <!-- Subscription Form -->
     <div class="container text-center my-5">
       <h3>Join Our Community</h3>
@@ -121,7 +203,7 @@
 
     <!-- Footer -->
     <footer class="text-center bg-dark text-white py-3">
-      <p>&copy; 2024 Lifestyle Vibes | <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a></p>
+      <p>&copy; 2024 Lifestyle Vibes | <a href="#" class="text-white">Privacy Policy</a> | <a href="#" class="text-white">Terms & Conditions</a></p>
     </footer>
 
     <!-- Bootstrap JS -->
